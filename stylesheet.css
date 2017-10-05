@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+}
+body {
+	background-repeat: no-repeat;
+}
+.logo {
+	margin: -10px 92.5% 0 0;
+}
+#navigation {
+	margin: -51px 0 0 850px; /*teksten bliver ikke rykket helt over til højre, og forsvinder hvis den kommer over -320px i right margin*/
+	padding-bottom: 5px;
+}
+#navigation li{
+	list-style: none; /* på denne måde kan man fjerne "bullets" */
+	display: inline; /* på denne måde får man blok elementet til at blive inline, her står det på en linje */
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	font-size: 1.0em; /* 1.0em er default, så herfra kan man justere den op og ned i forhold til udgangspunktet/default */
+    margin: 0 5px;
+    float: right;
+	letter-spacing: 3px;
+}
+#navigation a {
+	text-decoration: none; /* på denne måde fjerner man understregningen af links */
+	font-weight: thin; /* font-weight justerer hvordan tekst tykkelsen skal være */
+	margin: 0px 30px 0px 30px; /* her bruges margin, til at justere afstanden af mellemrummene mellem linksne */
+	color: #8A8A8A;
+}
+#navigation a.selected {
+	border-bottom: none;
+	color: black;
+	
+}
+.intro {
+	margin-top: 1000px;
+	width: 30%;
+	padding: 150px 0 0 100px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	font-size: 18px;
+}
+.profil {
+	width: 40%;
+	padding: 0 0 0 150px;
+	margin-top: 960px;
+}
+
+.gym {
+	padding: 150px 20px 5px 75px;
+	min-width: 20%;
+	opacity: 0.3;
+	
+}
+.facebook {
+	padding: 150px 20px 5px 20px;
+	min-width: 20%;
+	opacity: 0.3;
+	
+}
+.operate {
+	padding: 150px 75px 5px 20px;
+	min-width: 20%;
+	opacity: 0.3;
+	
+}
+.jbh {
+	padding: 150px 20px 5px 75px;
+	min-width: 20%;
+	
+}
+.footlocker {
+	padding: 150px 20px 5px 20px;
+	min-width: 20%;
+	opacity: 0.3;
+	
+}
+.cancer {
+	padding: 150px 75px 5px 20px;
+	min-width: 20%;
+	opacity: 0.3;
+	
+}
+.overskrift {
+	width: 100%;
+	text-align: center;
+}
+.underoverskrift {
+	width: 100%;
+	text-align: center;
+}
+.underoverskrift2 {
+	width: 100%;
+	text-align: center;
+	line-height: 0.01em; /*line-height bruges her til at føre teksten på de to linjer tættere sammen*/
+	margin: -38px 0 0 0;
+}
+.figur {
+	width: 100%;
+	padding: 0 555px 0px 555px;
+	margin-top: 10px;
+}
+h1 {
+    letter-spacing: 15px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+}
+h3 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	color: #4C4C4C;
+}
+h4 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	color: #4C4C4C;
+}
+
+.email {
+	width: 20%;
+	
+}
+.linkedin {
+	width: 20%;
+	
+	
+}
+.facebook2 {
+	width: 20%;
+	
+	
+}
+.instagram {
+	width: 20%;
+	
+	
+}
+#navigation2 {
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+}
+#navigation2 li{
+	list-style: none; /* på denne måde kan man fjerne "bullets" */
+	display: inline; /* på denne måde får man blok elementet til at blive inline, her står det på en linje */
+	border: none;
+}
+#navigation2 a {
+	text-decoration: none; /* på denne måde fjerner man understregningen af links */
+	margin: 0px 30px 0px 30px; /* her bruges margin, til at justere afstanden af mellemrummene mellem linksne */
+}
+.photo {
+	padding: 100px 0px 0px 50px;
+	text-align: center;
+}
+.photo a {
+	text-decoration: none;
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: thin;
+}
+.urban {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+.urban a {
+	text-decoration: none;
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: thin;
+}
+.art {
+	padding: 100px 50px 0px 0px;
+	text-align: center;	
+}
+.art a {
+	text-decoration: none;
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: thin;
+}
+.freestyle {
+	margin: 50px 450px 0 450px;
+	width: 100%;
+}
+footer {
+	color: #4C4C4C;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	margin: 10px 0px;
+	letter-spacing: 1px;
+	width: 100%;
+}
+
